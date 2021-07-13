@@ -1,4 +1,4 @@
-/*
+/* This is the old version
 COLORS USED IN THE MOCKUP
 background: #fff;
 
@@ -31,6 +31,20 @@ storage-it-4: #bcbeca;
 
 acount-it: #c4c4c4;
 */
+:root {
+  --app-blue: #689ff8;
+  --app-green: #4ac29d;
+  --app-orange: #ff9f00;
+  --app-red: #ff6860;
+  --app-white: #fff;
+  --app-gray2: #f5f6fc;
+  --app-gray1: #c8ccdb;
+  --app-gray: #a6aabb;
+  --app-gray-1: #858a9d;
+  --app-gray-2: #464c61;
+  --app-gray-3: #343951;
+}
+
 html {
   font-family: "Robot", sans-serif;
   background-color: #fff;
@@ -56,28 +70,28 @@ p {
 }
 
 h1 {
-  font-size: 28px;
-  line-height: 23px;
+  font-size: 24px;
+  line-height: 32px;
 }
 h2 {
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 16px;
+  line-height: 24px;
 }
 h3 {
-  font-size: 15px;
-  line-height: 23px;
+  font-size: 10px;
+  line-height: 16px;
 }
 h4 {
-  font-size: 12px;
-  line-height: 23px;
+  font-size: 8px;
+  line-height: 8px;
 }
 
 .wrapper {
   width: 100%;
+  min-height: 100vh;
   display: grid;
-  background-color: #fff;
-  gap: 30px;
-  grid-template-columns: 17fr 57fr 26fr;
+  background-color: #f5f6fc;
+  grid-template-columns: 260px auto 440px;
 }
 .options-logo-horizontal {
   transform: rotate(90deg);
@@ -179,6 +193,12 @@ h4 {
 .fill-container-alter {
   background: #bcbeca;
 }
+.fill-menu-select {
+  background: #c8ccdb;
+}
+.fill-menu-unselect {
+  background: #858a9d;
+}
 
 .v-align-center {
   margin-top: auto;
@@ -200,6 +220,15 @@ h4 {
   justify-content: space-between;
 }
 .square-logo {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+.square-logo-mini {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+.cross-logo {
+  margin: 0 20px 0 0;
 }

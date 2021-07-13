@@ -20,56 +20,59 @@
 		<div class="menu-image"></div>
 		<div class="menu-navbar">
 			<div class="menu-navbar-it">
-				<div class="square-logo border-menu-select"></div>
-				<h3 class="txt-menu-select">Home</h3>
+				<div class="square-logo fill-menu-select"></div>
+				<h2 class="txt-menu-select">Home</h2>
 			</div>
 			<div class="menu-navbar-it">
-				<div class="square-logo border-menu-unselect"></div>
-				<h3 class="txt-menu-unselect">My Files</h3>
+				<div class="square-logo fill-menu-unselect"></div>
+				<h2 class="txt-menu-unselect">My Files</h2>
 			</div>
 			<div class="menu-navbar-it">
-				<div class="square-logo border-menu-unselect"></div>
-				<h3 class="txt-menu-unselect">Recent Files</h3>
+				<div class="square-logo fill-menu-unselect"></div>
+				<h2 class="txt-menu-unselect">Recent Files</h2>
 			</div>
 			<div class="menu-navbar-it">
-				<div class="square-logo border-menu-unselect"></div>
-				<h3 class="txt-menu-unselect">Shared Filed</h3>
+				<div class="square-logo fill-menu-unselect"></div>
+				<h2 class="txt-menu-unselect">Shared Filed</h2>
 			</div>
 			<div class="menu-navbar-it">
-				<div class="square-logo border-menu-unselect"></div>
-				<h3 class="txt-menu-unselect">File Request</h3>
+				<div class="square-logo fill-menu-unselect"></div>
+				<h2 class="txt-menu-unselect">File Request</h2>
 			</div>
 			<div class="menu-navbar-it">
-				<div class="square-logo border-menu-unselect"></div>
-				<h3 class="txt-menu-unselect">Trash</h3>
+				<div class="square-logo fill-menu-unselect"></div>
+				<h2 class="txt-menu-unselect">Trash</h2>
 			</div>
 		</div>
 		<div class="menu-create-options">
 			<div class="create-options-it">
-				<div class="square-logo border-menu-alt"></div>
+				<div class="square-logo-mini fill-menu-unselect"></div>
 				<h3 class="txt-menu-alt">Upload files</h3>
 			</div>
 			<div class="create-options-it">
-				<div class="square-logo border-menu-alt"></div>
+				<div class="square-logo-mini fill-menu-unselect"></div>
 				<h3 class="txt-menu-alt">Upload folder</h3>
 			</div>
 			<div class="create-options-it">
-				<div class="square-logo border-menu-alt"></div>
+				<div class="square-logo-mini fill-menu-unselect"></div>
 				<h3 class="txt-menu-alt">New folder</h3>
 			</div>
 			<div class="create-options-it">
-				<div class="square-logo border-menu-alt"></div>
+				<div class="square-logo-mini fill-menu-unselect"></div>
 				<h3 class="txt-menu-alt">More</h3>
 			</div>
 		</div>
-		<div class="menu-create-box">
-			<h3 class="txt-button">Upgrade Account!</h3>
-			<div class="square-logo v-align-center "><h2 class="txt-button">+</h2></div>
-		</div>
+		<button class="create-button">
+			<object data="./ressources/cross.svg" type="image/svg+xml" class="cross-logo"> </object>
+			<h2 class="txt-button">Create New</h2>
+		</button>
 	</nav>
 	<!-------------------FILES EXPLORER------------------->
 	<div class="files-explorer">
-		<input class="files-search" placeholder="Search"/>
+		<div class="search-box">
+			<object data="./ressources/search.svg" type="image/svg+xml" class="search-logo v-align-center"> </object>
+			<input class="files-search  v-align-center" placeholder="Search"/>
+		</div>
 		<div class="section-header">
 			<h1 class="txt-container-main">Recently Used</h1>
 			<div class="double-square-logo">
@@ -82,8 +85,11 @@
 				<div class="ru-files-icon fill-orange">
 				</div>
 				<div class="ru-users-container">
-					<div class="ru-users-icon-1 border-container-main fill-white"></div>
-					<div class="ru-users-icon-2 border-container-main  fill-white"></div>
+					<div class="ru-users-icon-1"></div>
+					<div class="ru-users-icon-2"></div>
+					<div class="ru-users-icon-3">
+						<h3 class="txt-button">+3</h3>
+					</div>
 				</div>
 				<div class="ru-file-options">
 					<object data="./ressources/options.svg" type="image/svg+xml"  class="options-logo"> </object>
@@ -99,8 +105,11 @@
 				<div class="ru-files-icon fill-orange">
 				</div>
 				<div class="ru-users-container">
-					<div class="ru-users-icon-1 border-container-main fill-white"></div>
-					<div class="ru-users-icon-2 border-container-main  fill-white"></div>
+					<div class="ru-users-icon-1"></div>
+					<div class="ru-users-icon-2"></div>
+					<div class="ru-users-icon-3">
+						<h3 class="txt-button">+3</h3>
+					</div>
 				</div>
 				<div class="ru-file-options">
 					<object data="./ressources/options.svg" type="image/svg+xml"  class="options-logo"> </object>
@@ -116,10 +125,10 @@
 				<div class="ru-files-icon fill-orange">
 				</div>
 				<div class="ru-users-container">
-					<div class="ru-users-icon-1 border-container-main fill-white"></div>
-					<div class="ru-users-icon-2 border-container-main  fill-white"></div>
-					<div class="ru-users-icon-3 border-container-main  fill-white">
-						<h4 class="h-align-center v-align-center">+3</h4>
+					<div class="ru-users-icon-1"></div>
+					<div class="ru-users-icon-2"></div>
+					<div class="ru-users-icon-3">
+						<h3 class="txt-button">+3</h3>
 					</div>
 				</div>
 				<div class="ru-file-options">
@@ -181,8 +190,11 @@
 				<div class="sf-files-icon fill-orange">
 				</div>
 				<div class="sf-users-container">
-					<div class="sf-users-icon-1 border-soft-green fill-white"></div>
-					<div class="sf-users-icon-2 border-soft-red fill-white"></div>
+					<div class="sf-users-icon-1"></div>
+					<div class="sf-users-icon-2"></div>
+					<div class="sf-users-icon-3">
+						<h3 class="txt-button">+3</h3>
+					</div>
 				</div>
 				<div class="sf-file-name">
 					<h2 class="txt-container-main">App Project</h2>
@@ -195,9 +207,11 @@
 				<div class="sf-files-icon fill-orange">
 				</div>
 				<div class="sf-users-container">
-					<div class="sf-users-icon-1 border-soft-green fill-white"></div>
-					<div class="sf-users-icon-2 border-soft-red fill-white"></div>
-					<div class="sf-users-icon-3 border-soft-blue fill-white"></div>
+					<div class="sf-users-icon-1"></div>
+					<div class="sf-users-icon-2"></div>
+					<div class="sf-users-icon-3">
+						<h3 class="txt-button">+3</h3>
+					</div>
 				</div>
 				<div class="sf-file-name">
 					<h2 class="txt-container-main">App Project</h2>
@@ -210,8 +224,11 @@
 				<div class="sf-files-icon fill-orange">
 				</div>
 				<div class="sf-users-container">
-					<div class="sf-users-icon-1 border-soft-green fill-white"></div>
-					<div class="sf-users-icon-2 border-soft-red fill-white"></div>
+					<div class="sf-users-icon-1"></div>
+					<div class="sf-users-icon-2"></div>
+					<div class="sf-users-icon-3">
+						<h3 class="txt-button">+3</h3>
+					</div>
 				</div>
 				<div class="sf-file-name">
 					<h2 class="txt-container-main">App Project</h2>
@@ -229,8 +246,8 @@
 				<div class="square-logo fill-container-alter"></div>
 				<div class="square-logo fill-container-alter"></div>
 			</div>
-			<h2 class="h-align-right">Name</h2>
-			<dic class="account-photo fill-container-alter"></dic>
+			<h2 class="h-align-right">Rick Sorkin</h2>
+			<object data="./ressources/user.svg" type="image/svg+xml" class="account-photo"> </object>
 		</div>
 		<div class="storage-info">
 			<h1>Storage</h1>
@@ -257,7 +274,7 @@
 						<h4>720 Files</h4>
 					</div>
 					<div class="documents-size">
-						<h4 class="h-align-center">200 GB</h4>
+						<h4 class="h-align-center v-align-center">200 GB</h4>
 					</div>
 				</div>
 				<div class="documents-it">
@@ -269,7 +286,7 @@
 						<h4>720 Files</h4>
 					</div>
 					<div class="documents-size">
-						<h4 class="h-align-center">125 GB</h4>
+						<h4 class="h-align-center v-align-center">125 GB</h4>
 					</div>
 				</div>
 				<div class="documents-it">
@@ -281,7 +298,7 @@
 						<h4>720 Files</h4>
 					</div>
 					<div class="documents-size">
-						<h4 class="h-align-center">75 GB</h4>
+						<h4 class="h-align-center v-align-center">75 GB</h4>
 					</div>
 				</div>
 				<div class="documents-it">
@@ -293,7 +310,7 @@
 						<h4>720 Files</h4>
 					</div>
 					<div class="documents-size">
-						<h4 class="h-align-center">50 GB</h4>
+						<h4 class="h-align-center v-align-center">50 GB</h4>
 					</div>
 				</div>
 			</div>
@@ -301,8 +318,10 @@
 				<div class="upgrade-image"></div>
 				<h2></h2>
 				<h2 class="h-align-center">Buy more space now!</h2>
-				<h4 class="h-align-center">Upgrade to cloud premium</h4>
-				<button class="upgrade-button"><h3>Upgrade Account!</h3></button>
+				<h3 class="h-align-center">Upgrade to cloud premium</h3>
+				<button class="upgrade-button">
+					<h2 class="txt-button">Upgrade Account!</h2>
+				</button>
 			</div>
 		</div>
 	</div>

@@ -1,3 +1,17 @@
+:root {
+  --app-blue: #689ff8;
+  --app-green: #4ac29d;
+  --app-orange: #ff9f00;
+  --app-red: #ff6860;
+  --app-white: #fff;
+  --app-gray2: #f5f6fc;
+  --app-gray1: #c8ccdb;
+  --app-gray: #a6aabb;
+  --app-gray-1: #858a9d;
+  --app-gray-2: #464c61;
+  --app-gray-3: #343951;
+}
+
 .menu {
   grid-column: 1/2;
   background-color: #343951;
@@ -7,8 +21,13 @@
 }
 .menu-image {
   grid-row: 1/2;
-  width: 60%;
-  background: linear-gradient(270deg, #689ef8 0%, #ff6860 56.25%, #ff9f00 100%);
+  width: 100%;
+  background: linear-gradient(
+    270deg,
+    var(--app-blue) 0%,
+    var(--app-red) 50%,
+    var(--app-orange) 100%
+  );
   border-radius: 5px;
 }
 .menu-navbar {
@@ -53,4 +72,17 @@
   display: flex;
   justify-content: space-around;
   flex-flow: row;
+}
+.create-button {
+  margin: 10% 0 0 0;
+  height: 40px;
+  grid-row: 6/7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  border: none;
+  background: #ff9f00;
+  border-radius: 7px;
 }
