@@ -75,13 +75,13 @@
 .documents-container {
   margin: 7% 0 7% 0;
   display: grid;
-  height: 200px;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   float: none;
   gap: 1px;
   background-color: #bec0c8;
 }
 .documents-it {
+  height: 50px;
   background-color: #f5f6fc;
   display: grid;
   float: none;
