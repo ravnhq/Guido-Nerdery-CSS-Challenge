@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Nerdery Layout Challenge</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="styles/general.css" rel="stylesheet" type="text/css">
+	<link href="styles/sidebar.css" rel="stylesheet" type="text/css">
+	<link href="styles/main-content.css" rel="stylesheet" type="text/css">
+	<link href="styles/secondary-content.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!------------------------------------------------------------ SIDEBAR -------------------------------------------------------------------------------------->
+		<div class="sidebar">
+			<div class="sidebar__logo"></div>
+			<div class="sidebar__menu">
+				<div class="sidebar__menu-active">
+					<div class="sidebar__menu-marker fill-neutral-white"></div>
+					<div class="square-logo-24 fill-neutral-gray-plus-1"></div>
+					<p class="body-m txt-neutral-white">Home</p>
+				</div>
+				<div class="sidebar__menu-inactive">
+					<div class="sidebar__menu-marker"></div>
+					<div class="square-logo-24 fill-neutral-gray-minus-1"></div>
+					<p class="body-m txt-neutral-gray">My Files</p>
+				</div>
+				<div class="sidebar__menu-inactive">
+					<div class="sidebar__menu-marker"></div>
+					<div class="square-logo-24 fill-neutral-gray-minus-1"></div>
+					<p class="body-m txt-neutral-gray">Recent Files</p>
+				</div>
+				<div class="sidebar__menu-inactive">
+					<div class="sidebar__menu-marker"></div>
+					<div class="square-logo-24 fill-neutral-gray-minus-1"></div>
+					<p class="body-m txt-neutral-gray">Shared Files</p>
+				</div>
+				<div class="sidebar__menu-inactive">
+					<div class="sidebar__menu-marker"></div>
+					<div class="square-logo-24 fill-neutral-gray-minus-1"></div>
+					<p class="body-m txt-neutral-gray">File Request</p>
+				</div>
+				<div class="sidebar__menu-inactive">
+					<div class="sidebar__menu-marker"></div>
+					<div class="square-logo-24 fill-neutral-gray-minus-1"></div>
+					<p class="body-m txt-neutral-gray">Trash</p>
+				</div>
+			</div>
+			<div class="sidebar__tooltip fill-neutral-gray-minus-2">
+				<div class="sidebar__tooltip-item">
+					<div class="square-logo-16 fill-neutral-gray-plus-1"></div>
+					<p class="label-regular txt-neutral-gray-plus-2">Upload files</p>
+				</div>
+				<div class="sidebar__tooltip-item">
+					<div class="square-logo-16 fill-neutral-gray-plus-1"></div>
+					<p class="label-regular txt-neutral-gray-plus-2">Upload folders</p>
+				</div>
+				<div class="sidebar__tooltip-item">
+					<div class="square-logo-16 fill-neutral-gray-plus-1"></div>
+					<p class="label-regular txt-neutral-gray-plus-2">New folder</p>
+				</div>
+				<div class="sidebar__tooltip-item">
+					<div class="square-logo-16 fill-neutral-gray-plus-1"></div>
+					<p class="label-regular txt-neutral-gray-plus-2">More</p>
+				</div>
+			</div>
+			<button class="sidebar__button-create fill-primary-orange">
+				<object data="./ressources/icon/Plus.svg" type="image/svg+xml" class="logo-plus"> </object>
+				<p class="body-m txt-neutral-white">Create New</p>
+			</button>
+		</div>
+		<!------------------------------------------------------------ MAIN CONTENT---------------------------------------------------------------------------------->
+		<div class="main-content">
+			<div class="main__search">
+				<object data="./ressources/icon/MagnifyingGlass.svg" type="image/svg+xml" class="logo-search"> </object>
+				<input class="files-search body-r" placeholder="Search..."/>
+			</div>
+			<div class="main__recently-used">
+				<div class="section-header">
+					<h1 class="txt-neutral-gray-minus-3">Recently used</h1>
+					<div class="double-square-logo-24">
+						<div class="square-logo-24 fill-neutral-gray-plus-1"></div>
+						<div class="square-logo-24 fill-neutral-gray-plus-1"></div>
+					</div>
+				</div>
+				<div class="recently-used-container">
+					<div class="ru-it">
+						<div class="ru-files-container">
+							<div class="ru-files-icon-1"></div>
+							<div class="ru-files-icon-2"></div>
+						</div>
+						<div class="ru-users-container">
+							<div class="ru-users-icon-1"></div>
+							<div class="ru-users-icon-2"></div>
+							<div class="ru-users-icon-3">
+								<p class="label-regular txt-neutral-white">+3</p>
+							</div>
+						</div>
+						<div class="ru-file-options">
+							<object data="./ressources/icon/DotsThreeVertical.svg" type="image/svg+xml"  class="options-logo"> </object>
+						</div>
+						<div class="ru-file-name">
+							<p class="body-m txt-neutral-gray-minus-3">App Project</p>
+						</div>
+						<div class="ru-date-1">
+							<p class="label-regular txt-neutral-gray-minus-3">Created:</p>
+						</div>
+						<div class="ru-date-2">
+							<p class="label-regular txt-neutral-gray-minus-1">March 10, 2021</p>
+						</div>
+					</div>
+					<div class="ru-it">
+						<div class="ru-files-container">
+							<div class="ru-files-icon-1"></div>
+							<div class="ru-files-icon-2"></div>
+						</div>
+						<div class="ru-users-container">
+							<div class="ru-users-icon-1"></div>
+							<div class="ru-users-icon-2"></div>
+							<div class="ru-users-icon-3">
+								<p class="label-regular txt-neutral-white">+3</p>
+							</div>
+						</div>
+						<div class="ru-file-options">
+							<object data="./ressources/icon/DotsThreeVertical.svg" type="image/svg+xml"  class="options-logo"> </object>
+						</div>
+						<div class="ru-file-name">
+							<p class="body-m txt-neutral-gray-minus-3">Client Documents</p>
+						</div>
+						<div class="ru-date-1">
+							<p class="label-regular txt-neutral-gray-minus-3">Created:</p>
+						</div>
+						<div class="ru-date-2">
+							<p class="label-regular txt-neutral-gray-minus-1">March 10, 2021</p>
+						</div>
+					</div>
+					<div class="ru-it">
+						<div class="ru-files-container">
+							<div class="ru-files-icon-1"></div>
+							<div class="ru-files-icon-2"></div>
+						</div>
+						<div class="ru-users-container">
+							<div class="ru-users-icon-1"></div>
+							<div class="ru-users-icon-2"></div>
+							<div class="ru-users-icon-3">
+								<p class="label-regular txt-neutral-white">+3</p>
+							</div>
+						</div>
+						<div class="ru-file-options">
+							<object data="./ressources/icon/DotsThreeVertical.svg" type="image/svg+xml"  class="options-logo"> </object>
+						</div>
+						<div class="ru-file-name">
+							<p class="body-m txt-neutral-gray-minus-3">Secret Project</p>
+						</div>
+						<div class="ru-date-1">
+							<p class="label-regular txt-neutral-gray-minus-3">Created:</p>
+						</div>
+						<div class="ru-date-2">
+							<p class="label-regular txt-neutral-gray-minus-1">March 10, 2021</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main__recent-files">
+				<div class="section-header">
+					<h1 class="txt-neutral-gray-minus-3">Recent files</h1>
+					<div class="double-square-logo-24">
+						<p class="body-m txt-neutral-gray-minus-1"> View all</p>
+					</div>
+				</div>
+				<div class="recent-files-container">
+					<div class="rf-header">
+						<p></p>
+						<p class="label-regular txt-neutral-gray-minus-1">Name</p>
+						<p class="label-regular txt-neutral-gray-minus-1">Members</p>
+						<p class="label-regular txt-neutral-gray-minus-1">Last modified</p>
+					</div>
+					<div class="rf-it">
+						<div class="square-logo-24 fill-primary-orange"></div>
+						<p class="body-r txt-neutral-gray-minus-3">Travel Landing Page</p>
+						<p class="body-r txt-neutral-gray-minus-1">5 members</p>
+						<p class="body-r txt-neutral-gray-minus-1">Mar 8, 2020</p>
+						<object data="./ressources/icon/DotsThreeVertical.svg" type="image/svg+xml"  class="options-logo"> </object>
+					</div>
+					<div class="rf-it">
+						<div class="square-logo-24 fill-primary-green"></div>
+						<p class="body-r txt-neutral-gray-minus-3">Travel Landing Page</p>
+						<p class="body-r txt-neutral-gray-minus-1">5 members</p>
+						<p class="body-r txt-neutral-gray-minus-1">Mar 8, 2020</p>
+						<object data="./ressources/icon/DotsThreeVertical.svg" type="image/svg+xml"  class="options-logo"> </object>
+					</div>
+					<div class="rf-it">
+						<div class="square-logo-24 fill-primary-red"></div>
+						<p class="body-r txt-neutral-gray-minus-3">Travel Landing Page</p>
+						<p class="body-r txt-neutral-gray-minus-1">5 members</p>
+						<p class="body-r txt-neutral-gray-minus-1">Mar 8, 2020</p>
+						<object data="./ressources/icon/DotsThreeVertical.svg" type="image/svg+xml"  class="options-logo"> </object>
+					</div>
+					<div class="rf-it">
+						<div class="square-logo-24 fill-primary-blue"></div>
+						<p class="body-r txt-neutral-gray-minus-3">Travel Landing Page</p>
+						<p class="body-r txt-neutral-gray-minus-1">5 members</p>
+						<p class="body-r txt-neutral-gray-minus-1">Mar 8, 2020</p>
+						<object data="./ressources/icon/DotsThreeVertical.svg" type="image/svg+xml"  class="options-logo"> </object>
+					</div>
+				</div>
+			</div>
+			<div class="main__shared">
+				<div class="section-header">
+					<h1 class="txt-neutral-gray-minus-3">Shared with me</h1>
+					<div class="double-square-logo-24">
+						<p class="body-m txt-neutral-gray-minus-1"> View all</p>
+					</div>
+				</div>
+				<div class="shared-files-container">
+					<div class="sf-it">
+						<div class="square-logo-24 fill-primary-orange"></div>
+						<div class="sf-users-container">
+							<div class="sf-users-icon-1"></div>
+							<div class="sf-users-icon-2"></div>
+							<div class="sf-users-icon-3"></div>
+						</div>
+						<div class="sf-file-name">
+							<p class="body-r txt-neutral-gray-minus-3">Landing page</p>
+						</div>
+						<div class="sf-date-1">
+							<p  class="label-regular txt-neutral-gray-minus-1">Created:</p>
+						</div>
+						<div class="sf-date-2">
+							<p  class="label-regular txt-neutral-gray-minus-3">March 10, 2021</p>
+						</div>
+					</div>
+					<div class="sf-it">
+						<div class="square-logo-24 fill-primary-orange"></div>
+						<div class="sf-users-container">
+							<div class="sf-users-icon-1"></div>
+							<div class="sf-users-icon-2"></div>
+							<div class="sf-users-icon-3"></div>
+						</div>
+						<div class="sf-file-name">
+							<p class="body-r txt-neutral-gray-minus-3">Illustration pack</p>
+						</div>
+						<div class="sf-date-1">
+							<p  class="label-regular txt-neutral-gray-minus-1">Created:</p>
+						</div>
+						<div class="sf-date-2">
+							<p  class="label-regular txt-neutral-gray-minus-3">March 10, 2021</p>
+						</div>
+					</div>
+					<div class="sf-it">
+						<div class="square-logo-24 fill-primary-orange"></div>
+						<div class="sf-users-container">
+							<div class="sf-users-icon-1"></div>
+							<div class="sf-users-icon-2"></div>
+							<div class="sf-users-icon-3"></div>
+						</div>
+						<div class="sf-file-name">
+							<p class="body-r txt-neutral-gray-minus-3">CV Design</p>
+						</div>
+						<div class="sf-date-1">
+							<p  class="label-regular txt-neutral-gray-minus-1">Created:</p>
+						</div>
+						<div class="sf-date-2">
+							<p  class="label-regular txt-neutral-gray-minus-3">March 10, 2021</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------------------------------------------------ SECONDARY CONTENT----------------------------------------------------------------------------->
+		<div class="secondary-content">
+			<div class="secondary__header">
+				<div class="double-square-logo-24">
+					<div class="square-logo-24 fill-neutral-gray-plus-1"></div>
+					<div class="square-logo-24 fill-neutral-gray-plus-1"></div>
+				</div>
+				<div class="account-box">
+					<p class="body-m txt-neutral-gray-minus-1">Rick Sorkin</p>
+					<object data="./ressources/icon/UserCircle.svg" type="image/svg+xml" class="logo-user-circle"> </object>
+				</div>
+			</div>
+			<div class="secondary__storage">
+				<h1 class="txt-neutral-gray-minus-3"> Storage</h1>
+				<div class="storage-percentage">
+					<svg class="percentage-svg">
+						<circle class="partial-circle-1 stroke-primary-orange" cx="50%" cy="50%" r="48%"></circle>
+						<circle class="partial-circle-2 stroke-primary-blue" cx="50%" cy="50%" r="48%"></circle>
+						<circle class="partial-circle-3 stroke-neutral-gray" cx="50%" cy="50%" r="48%"></circle>
+						<circle class="partial-circle-4 stroke-primary-green" cx="50%" cy="50%" r="48%"></circle>
+						<circle class="central-circle" cx="50%" cy="50%" r="40%"></circle>
+						<text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" 
+						font-family= "Roboto"
+						font-style= "normal"
+						font-weight= "500"
+						font-size= "24px"
+						line-height= "32px"
+						fill= "#343951">85%</text>
+						<text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" 
+						font-family= "Roboto"
+						font-style= "normal"
+						font-weight= "normal"
+						font-size= "16px"
+						line-height= "24px"
+						fill= "#a6aabb">Used</text>
+					</svg>
+					<p class="label-regular txt-neutral-gray-minus-1">420.2GB of 500GB</p>
+				</div>
+				
+				<div class="documents-container">
+					<div class="documents-it">
+						<div class="square-logo-24 fill-primary-orange"></div>
+						<div class="documents-name">
+							<p class="label-regular txt-neutral-gray-minus-3">Documents</p>
+						</div>
+						<div class="documents-quantity">
+							<p class="label-small txt-neutral-gray-minus-1">720 Files</p>
+						</div>
+						<div class="documents-size fill-neutral-white">
+							<p class="label-small txt-neutral-gray-minus-3">200 GB</p>
+						</div>
+					</div>
+					<div class="documents-it">
+						<div class="square-logo-24 fill-primary-blue"></div>
+						<div class="documents-name">
+							<p class="label-regular txt-neutral-gray-minus-3">Documents</p>
+						</div>
+						<div class="documents-quantity">
+							<p class="label-small txt-neutral-gray-minus-1">720 Files</p>
+						</div>
+						<div class="documents-size fill-neutral-white">
+							<p class="label-small txt-neutral-gray-minus-3">200 GB</p>
+						</div>
+					</div>
+					<div class="documents-it">
+						<div class="square-logo-24 fill-neutral-gray"></div>
+						<div class="documents-name">
+							<p class="label-regular txt-neutral-gray-minus-3">Documents</p>
+						</div>
+						<div class="documents-quantity">
+							<p class="label-small txt-neutral-gray-minus-1">720 Files</p>
+						</div>
+						<div class="documents-size fill-neutral-white">
+							<p class="label-small txt-neutral-gray-minus-3">200 GB</p>
+						</div>
+					</div>
+					<div class="documents-it">
+						<div class="square-logo-24 fill-primary-green"></div>
+						<div class="documents-name">
+							<p class="label-regular txt-neutral-gray-minus-3">Documents</p>
+						</div>
+						<div class="documents-quantity">
+							<p class="label-small txt-neutral-gray-minus-1">720 Files</p>
+						</div>
+						<div class="documents-size fill-neutral-white">
+							<p class="label-small txt-neutral-gray-minus-3">200 GB</p>
+						</div>
+					</div>
+					<div class="documents-it">
+						<div class="square-logo-24 fill-primary-red"></div>
+						<div class="documents-name">
+							<p class="label-regular txt-neutral-gray-minus-3">Documents</p>
+						</div>
+						<div class="documents-quantity">
+							<p class="label-small txt-neutral-gray-minus-1">720 Files</p>
+						</div>
+						<div class="documents-size fill-neutral-white">
+							<p class="label-small txt-neutral-gray-minus-3">200 GB</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="secondary__ad">
+				<div class="secondary__ad-image"></div>
+				<div class="secondary__ad-text-box">
+					<p class="body-m txt-neutral-gray-minus-2">Buy more space now!</p>
+					<p class="label-regular txt-neutral-gray-minus-1">Upgrade to cloud premium</p>
+				</div>
+				<div class="secondary__ad-button fill-primary-orange">
+					<p class="body-r txt-neutral-white">Upgrade account</p>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
